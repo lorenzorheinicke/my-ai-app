@@ -1,8 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My AI App
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) that integrates AI capabilities using the OpenAI API.
+
+## Overview
+
+This project is an AI-powered chat application built with Next.js and the OpenAI API. It demonstrates how to create a simple chat interface that interacts with AI models, specifically using the GPT-4 model.
+
+Key features:
+
+- Real-time chat interface
+- Integration with OpenAI's GPT-4 model
+- Server-side streaming of AI responses
+- Tailwind CSS for styling
 
 ## Getting Started
 
-First, run the development server:
+First, set up your environment:
+
+1. Create a `.env.local` file in the root directory of the project.
+2. Add your OpenAI API key to the `.env.local` file:
+
+```bash
+OPENAI_API_KEY=your_api_key_here
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
